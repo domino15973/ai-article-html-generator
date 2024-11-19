@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article Preview Template</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- CSS Styles -->
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        h1, h2, h3 {
+            color: #222;
+            margin-top: 20px;
+            font-weight: 700;
+        }
+
+        p {
+            line-height: 1.6;
+            margin: 10px 0;
+            text-align: justify;
+        }
+
+        img {
+            display: block;
+            max-width: 100%;
+            margin: 15px auto;
+        }
+
+        figcaption {
+            text-align: center;
+            font-style: italic;
+            color: #555;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Style for the Scroll to Top Button */
+        .scroll-top-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .scroll-top-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+
+    <!-- JavaScript for Scroll to Top functionality -->
+    <script>
+        function scrollToTop() {
+            window.scrollTo({top: 0, behavior: 'smooth'});
+        }
+    </script>
+</head>
+<body>
+<div class="container">
+    <!-- Article content will be pasted here -->
+</div>
+
+<!-- Scroll to Top Button -->
+<button class="scroll-top-btn" onclick="scrollToTop()">Scroll to Top</button>
+</body>
+</html>
